@@ -1,8 +1,13 @@
 {
+  "name": "vuepress-blog",
+  "version": "0.0.1",
+  "description": "Blog with VuePress",
+  "author": "BeckXun <xjf_pro@163.com>",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
+  "license": "MIT",
   "devDependencies": {
     "vuepress": "^0.14.10"
   }
