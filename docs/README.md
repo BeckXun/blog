@@ -1,1 +1,1 @@
-# 我的个人博客部署在阿里云 感兴趣的同学GitHub搜beckxun
+# 我的个人博客使用vuepress生成html Jenkins + GitHub webhooks自动化部署 感兴趣的同学GitHub搜beckxun
