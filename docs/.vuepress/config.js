@@ -5,7 +5,7 @@ module.exports = {
   dest: "./dist",
   head: [
     ['link', {
-      rel: 'icon',
+      rel: 'shortcut icon',
       href: '/favicon.ico'
     }]
   ],
@@ -18,21 +18,28 @@ module.exports = {
   },
   themeConfig: {
     nav: [{
-        text: 'Note',
+        text: '笔记',
         link: '/note/'
       },
       {
-        text: 'Experience',
+        text: '心得',
         link: '/exp/'
       },
       {
-        text: 'About',
-        link: '/about'
+        text: '关于我',
+        link: '/about/'
       },
       {
         text: 'GitHub',
         link: 'https://github.com/JamesXun/blog'
       },
-    ]
+    ],
+    // sidebar: {
+    //   '/about/': [
+    //     '',
+    //     'one',
+    //     'two'
+    //   ],
+    // }
   }
 };
