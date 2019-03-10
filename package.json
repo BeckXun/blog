@@ -7,8 +7,20 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JamesXun/blog.git"
+  },
+  "keywords": [
+    "vuepress",
+    "vue",
+    "blog"
+  ],
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^0.14.10"
+  },
+  "engines": {
+    "node": ">= 9.0.0"
   }
 }
